@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+	body,td,th {
+    color: #000000;
+}
+body {
+    background-color: #C19696;
+}
+    </style>
+<title>Customer Login</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <pre><a class="navbar-brand" href="home.html"><strong>Doris' Inventory</strong></a> </pre>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav"><a class="nav-link" href="home.html">Home</a> <a class="nav-link" href="shop.html">Shop</a> <a class="nav-link" href="account.html">Account</a>        </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h2>Customer Login</h2>
+        <form id="accountForm" action="your-submit-action" method="post">
+            <label for="login">Login:</label>
+            <input type="text" id="login" name="login" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit"> Enter </button>
+        </form>
+</div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+</html>

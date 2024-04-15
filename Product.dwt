@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<style>
+body,td,th {
+    color: #000000;
+}
+body {
+    background-color: #FFFFFF;
+}
+</style>
+<link href="../css/productstyles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+    <div class="navbar">
+      <p>&nbsp;</p>
+      <p> <a href="../Products/Templates/home.html">Home</a> <a href="../Products/Templates/shop.html">Shop</a> <a href="../Products/Templates/account.html">Account</a> </p>
+    </div>
+    <!-- TemplateBeginEditable name="Title" -->
+    <h1>Title</h1>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="Photo" -->
+    Photo<br><br>
+    <!-- TemplateEndEditable -->
+    $
+    <!-- TemplateBeginEditable name="Price" -->
+    <br>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="Description" -->
+    Description
+    <!-- TemplateEndEditable -->
+    
+</body>
+</html>
